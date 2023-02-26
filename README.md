@@ -14,11 +14,11 @@ This proxy list is collected from the list of proxies available on the Internet.
     ```
   - **SOCKS4**
     ```bash
-    curl https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks4.txt
+    https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks4.txt
     ```
   - **SOCKS5**
     ```bash
-    curl https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt
+    https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt
     ```
     
     
