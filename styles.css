@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+}
+.topnav {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+.topnav a {
+    display: inline-block;
+    color: #33ff00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: monospace;
+}
+.topnav a:hover {
+    background-color: #9c999a;
+    color: #080808;
+}
+.topnav a.active {
+    background-color: #f5034b;
+    color: white;
+}
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #33ff00;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+.button:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+footer {
+    background: linear-gradient(90deg, #222, #444);
+    color: #eee;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+footer a {
+    color: #33ff00;
+    text-decoration: none;
+    margin: 5px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+.social-icons a:hover {
+    color: #33ff00;
+}
+@media (max-width: 600px) {
+    .button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
